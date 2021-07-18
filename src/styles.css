@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  height: 100%;
+}
+.cards {
+  background-color: #94c997;
+  background-image: linear-gradient(315deg, #94c997 0%, #daacec 74%);
+  border-radius: 30px;
+  padding: 8px;
+  min-height: 80vh;
+}
+.cards::-webkit-scrollbar {
+  width: 5px;
+  max-height: 50%;
+}
+
+.cards::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+  max-height: 50%;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+.main-container {
+  margin-top: 1%;
+}

@@ -1,0 +1,47 @@
+.note {
+  width: 230px;
+  margin: 16px;
+  padding: 10px;
+  background: rgba(52, 31, 31, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.note h1 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+  font-weight: bold;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.note p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-weight: bold;
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.note footer {
+  color: blanchedalmond;
+  cursor: pointer;
+  background-color: red;
+  width: 50%;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.note footer:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+  transition-delay: 0.2s;
+}

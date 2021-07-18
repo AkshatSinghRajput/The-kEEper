@@ -1,0 +1,50 @@
+form {
+  position: relative;
+  width: 100%;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  border-radius: 10px;
+  margin: 20px auto 30px auto;
+  justify-content: center;
+  padding: 10px;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+  background: rgba(52, 31, 31, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+form input {
+  border-radius: 10px 10px 0 0;
+}
+form textarea {
+  border-radius: 0 0 10px 10px;
+}
+form input:focus {
+  border: 2px solid white;
+}
+form textarea:focus {
+  border: 2px solid white;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
